@@ -49,7 +49,9 @@ Here we see that unsurprisingly one word that apears very often is ‘joke’. T
 Even here we see that some of the comments actually defend Will for his actions. One example is the last one that says “it’s possible to try to laugh off a joke and realize you’re actually hurt (...)”. Some people also say that the joke was tasteless. However, most of them seem to defend Chris Rock even though they think the joke is tasteless
 Furthermore, we can see that even though we’re only looking at posts are reposts to comments about either Will Smith, his wife, Chris Rock, the slap and the Oscars, many other words come into play in some of the subreddits, e.g. worldnews, boxoffice and offbeat. This is interesting as it shows how unfocused a discussion can be, and how fast the attention of humas can wander off - especially on the internet. Another interesting thing is the willsmith subreddit. Here, none of the dominant words from the other subreddits are not nearly as dominant. This indicates that on the willsmith subreddit they didn’t really care that much about the slap. Admittedly, ‘joke’, ‘wife’, ‘jada’ etc appear here as will, but many other words are just as important.
 Let’s move on to a wordcloud plot where we have divided the words according to topic, that is each of the elements in [Chris Rock, Will Smith, Slap, Oscar, Jada Pinkett] represent a document. Note that here, each post can mention multiple topics, so the same post can be accounted in multiple documents.
-[WORDCLOUD]
+
+![](/images/wordcloud_topic.png)
+
 Here we see a much bigger variation, and also, many of the words seem a bit random. This is because we only have 5 documents in this case, and looking at the TF-IDF equation, if a word appears in all the documents, the TF-IDF score becomes zero. However, it is interesting, that words like ‘polygamous’, ‘monogamy’ and ‘soulmate’ appear frequently in the topic of jada smith. This is interesting because it aligns with the general tendency to assign these sort of “soft” values to the women.
 Now let’s move on to the graph analysis
 
