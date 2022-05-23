@@ -2,3 +2,6 @@
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+disableKinds = ["taxonomy"]
+      
+

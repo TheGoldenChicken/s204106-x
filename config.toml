@@ -1,10 +1,10 @@
-baseURL = "https://peterampazzo.github.io/project-website-template/"
-title = "Project Title"
-description = "This is a project description"
+baseURL = "https://TheGoldenChicken/s204106-x.github.io/"
+title = "Analysis of Reddit data regarding the 2022 Oscar slap"
+description = "This project analyses the network based on comments between redditors as well as the semantic analysis of their comments"
 relativeURLs = true
 theme = "theme" 
 [params]
-    authors = ["Henrik Nielsen", "Inga Jensen", "Mikkel Andersen"]
+    authors = ["Christian Ole Nielsen", "Karl Meisner-Jensen", "Lauge Thode Hermansen"]
     notebook = "/explainer-notebook.html"
     data = "https://drive.google.com"
     github = "https://github.com/peterampazzo/project-website-template"
