@@ -1,39 +1,24 @@
 ---
-title: Home Page
+title: Project overview
 layout: single
 next: data-description
 ---
 
-Donec posuere justo at risus [efficitur convallis](#). Donec enim nibh, aliquet vel risus id, tincidunt consectetur felis. Proin porttitor odio a orci accumsan bibendum id at risus. Sed a posuere odio, ac lobortis augue. Maecenas aliquet ipsum vel libero dignissim, non aliquet justo eleifend. Fusce mollis, ante eget tincidunt imperdiet, mi ligula venenatis ex, ut pulvinar nunc ipsum tempus eros. Aliquam erat volutpat. Sed id _iaculis arcu_, sit amet varius libero. Etiam quis nisl pretium, eleifend quam nec, rutrum sapien. **Donec rutrum accumsan orci.**
+<img src="/images/slap.png" width="300" />
 
+# The Will Smith slap
 
-## Math formula
+At the 94th academy awards on march 27, 2022, Will Smith slapped Chris Rock as a reaction to Chris Rock telling a joke about Will Smith's wife, Jada Pinkett. This created an immediate online reaction, particularly on reddit, where many subreddits were abuzz with the news. 
 
+Looking qualitatively at many of the comments and posts, we hypotheized, that a certain, possibly unhealthy discussion was being propagated by the forums, with some subreddits being heavily biased towards either one side or the other, particularly in regards to Reddit's (partial) role as a place for discusison. Instead of discussion, this could potentially create a sort of 'echo chamber' effect, where instead of people meeting to exchange different views, instead propagate only one viewpoint and simply reinforce this for each other.
 
-$$ x^n + y^n = z^n $$
+This 'echo chamber' effect especially is interesting, as it has been seen on sites before such as QAnon to have potentially devastating effects in situations such as the storming of the capitol building in the US.
 
-## Code chunk
+In this report, we analyze data collected from Reddit in the days following the slap, and use methods to discern whether or not there is the proposed 'echo chamber' effect, and whether or not the viewpoints propagated on the sites are wholly of one sentiment or another. We present our methods for scraping, cleaning and preparing the data for use, as well our methods for detecting the syntactic content of the comments, as well as the sentiment. 
 
-```
-import pandas as pd
+Furthermore, we conclude, that while it may seem qualitatively so, that the echo chamber effect is quite real, we find no hard evidence to support this. Some results such as the modularlity of the graphs created seem to suggest some trends of 'echo chambering', but without a baseline with regards to those same subreddits before the Will Smith slap, we cannot conclude anything meaningful.
 
-df = pd.DataFrame()
-```
+Finally, we motivate the continuation of studies about this subject, particularly to obtain meaningful baselines for the subreddits examined, as without prior knowledge about the general behavior of users on these subreddits, it is difficult to say if any one finding is atypical to the Will Smith slap in particular. 
 
-Sed id orci ullamcorper, commodo sapien in, scelerisque nunc. Duis posuere sed nisl in gravida. Pellentesque rutrum justo ut mi tempus dignissim. Ut pulvinar quis urna ut molestie. Pellentesque nec arcu metus. Vivamus non rutrum magna. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
-
-![](https://source.unsplash.com/random/?Copenhagen)
-
-Phasellus viverra tellus viverra purus placerat, et lacinia mauris tristique. Nam semper venenatis lorem, nec ullamcorper tortor dignissim eget. Etiam non ipsum sed neque pharetra ullamcorper. Praesent ultrices ipsum varius dictum lacinia. Nulla placerat magna augue, volutpat rutrum nulla finibus sed. Phasellus maximus mi sit amet risus mattis, porta rhoncus elit dictum. Donec vel viverra lectus, vitae elementum arcu. Quisque quis molestie elit. Cras eget tellus vitae risus fermentum bibendum vitae ac turpis. Praesent mi eros, scelerisque sit amet sem at, hendrerit accumsan ligula.
-
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec mauris aliquet, convallis ligula vel, mollis est. Fusce accumsan massa vel lectus dapibus, at vehicula elit auctor.
-
-| Column 1  | Column 2  |  Column 3 |
-|---|---|---|
-| 1 | 4 | 7 |
-| 2 | 5 | 8 |
-| 3 | 6 | 9 |
-
-## [Explainer Notebook](explainer-notebook.html)
-
-Aenean non augue vulputate, bibendum ligula ac, euismod arcu. Proin consequat, urna at lobortis sodales, ligula nulla molestie dolor, et interdum nulla arcu eu lacus. Aenean maximus mi vel augue blandit, quis vehicula libero egestas. In mollis nibh in turpis sodales, eget luctus sem pretium. Integer lobortis diam vel nisi laoreet, ut condimentum risus ultrices. Praesent diam risus, imperdiet at lorem in, hendrerit auctor ex.
+GITHUB: https://github.com/LaugeHermansen/com-soc-proj-a
+DATA Google Drive: https://drive.google.com/drive/folders/12vRZJZKnCbcwPwjMSR80J2UALyb2fRAw?usp=sharing
